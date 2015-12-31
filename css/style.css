@@ -219,7 +219,14 @@ a.gplus:active { background-position: -80px -80px; }
     margin: 0 auto;
   }
   table tr * {
+    font-size: .7em;
     padding: 5px;
+    word-wrap: break-word;
+    white-space: pre-line;
+  }
+  table tr th {
+    font-size: .8em;
+    font-weight: bold;
   }
 }
 
