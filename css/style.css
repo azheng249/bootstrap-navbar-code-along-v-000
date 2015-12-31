@@ -163,15 +163,16 @@ figcaption {
 #social {
   position: fixed;
   top: 75px;
-  right: 20px;
-  width: 40px;
+  right: 10px;
   z-index: 2;
 }
-
+#social ul {
+  padding-left: 0px;
+}
 #social a {
   display: block;
-  width: 35px;
-  height: 35px;
+  width: 40px;
+  height: 40px;
   text-indent: 100%;
   white-space: nowrap;
   overflow: hidden;
@@ -180,7 +181,7 @@ figcaption {
 }
 
 a.fbook, a.twit, a.gplus {
-  background: url(../images/social-icons.png) no-repeat;
+  background: url(../images/social-icons.png) no-repeat center top;
 }
 
 a.fbook { background-position: 0 0; }
@@ -199,23 +200,20 @@ a.gplus:active { background-position: -80px -80px; }
   #social ul, #social {
     top: 5px;
     right: auto;
-    left: 130px;
-    width: 160px;
-    height: 10px;
+    left: 120px;
+    width: 250px;
     position: fixed;
   }
   #social li a, #social li {
-    display: inline;
+    display: inline-block;
+    z-index: 10;  
+    width: 40px;
+    min-width: 40px;
+    height: 40px;
+    min-height: 40px;
   }
-  #social a{
-    padding: 0;
-    width: 35px;
-    height: 35px;
-    max-width: 32%;
-    z-index: 10;
-  }
-}
 
+}
 
 /*/////// FOOTER ////////*/
 footer {
